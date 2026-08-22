@@ -63,80 +63,80 @@
     "Raleway Variable", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --radius: 0.625rem;
 
-  /* Coastal Breeze palette: ivory #FFFFF0, sky #87CEEB, steel #4682B4,
-     cadet #5F9EA0, slate #2F4F4F. Destructive stays a semantic red — none
-     of the five source colors read as an error/danger color. */
-  --background: #fffff0;
-  --foreground: #2f4f4f;
+  /* Lavender palette: #F8F6FB, #E3DEEF, #C7BDDB, #A6A0BF, #6A647F.
+     Destructive stays a semantic red — none of the five source colors
+     read as an error/danger color. */
+  --background: #f8f6fb;
+  --foreground: #6a647f;
   --card: #ffffff;
-  --card-foreground: #2f4f4f;
+  --card-foreground: #6a647f;
   --popover: #ffffff;
-  --popover-foreground: #2f4f4f;
-  --primary: #4682b4;
-  --primary-foreground: #fffff0;
-  --secondary: #87ceeb;
-  --secondary-foreground: #2f4f4f;
-  --muted: #eaf6fb;
-  --muted-foreground: #5f7a7a;
-  --accent: #d6eff9;
-  --accent-foreground: #2f4f4f;
+  --popover-foreground: #6a647f;
+  --primary: #6a647f;
+  --primary-foreground: #f8f6fb;
+  --secondary: #c7bddb;
+  --secondary-foreground: #6a647f;
+  --muted: #e3deef;
+  --muted-foreground: #a6a0bf;
+  --accent: #e3deef;
+  --accent-foreground: #6a647f;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.97 0.01 17);
-  --border: #c9ddeb;
-  --input: #c9ddeb;
-  --ring: #4682b4;
-  --chart-1: #87ceeb;
-  --chart-2: #4682b4;
-  --chart-3: #5f9ea0;
-  --chart-4: #2f4f4f;
-  --chart-5: #1b3232;
-  --sidebar: #f3f3e0;
-  --sidebar-foreground: #2f4f4f;
-  --sidebar-primary: #4682b4;
-  --sidebar-primary-foreground: #fffff0;
-  --sidebar-accent: #d6eff9;
-  --sidebar-accent-foreground: #2f4f4f;
-  --sidebar-border: #cfe3e3;
-  --sidebar-ring: #4682b4;
-  --selection: #4682b4;
-  --selection-foreground: #fffff0;
+  --border: #c7bddb;
+  --input: #c7bddb;
+  --ring: #6a647f;
+  --chart-1: #e3deef;
+  --chart-2: #c7bddb;
+  --chart-3: #a6a0bf;
+  --chart-4: #6a647f;
+  --chart-5: #423d52;
+  --sidebar: #e3deef;
+  --sidebar-foreground: #6a647f;
+  --sidebar-primary: #6a647f;
+  --sidebar-primary-foreground: #f8f6fb;
+  --sidebar-accent: #c7bddb;
+  --sidebar-accent-foreground: #6a647f;
+  --sidebar-border: #c7bddb;
+  --sidebar-ring: #6a647f;
+  --selection: #6a647f;
+  --selection-foreground: #f8f6fb;
 }
 
 .dark {
-  --background: #14282a;
-  --foreground: #ededd9;
-  --card: #1c3634;
-  --card-foreground: #ededd9;
-  --popover: #1c3634;
-  --popover-foreground: #ededd9;
-  --primary: #87ceeb;
-  --primary-foreground: #14282a;
-  --secondary: #2c4a48;
-  --secondary-foreground: #ededd9;
-  --muted: #203e3c;
-  --muted-foreground: #8fb5b0;
-  --accent: #2c4a48;
-  --accent-foreground: #ededd9;
+  --background: #221f2b;
+  --foreground: #ece8f3;
+  --card: #2d293a;
+  --card-foreground: #ece8f3;
+  --popover: #2d293a;
+  --popover-foreground: #ece8f3;
+  --primary: #c7bddb;
+  --primary-foreground: #221f2b;
+  --secondary: #3a3548;
+  --secondary-foreground: #ece8f3;
+  --muted: #322e40;
+  --muted-foreground: #a6a0bf;
+  --accent: #3a3548;
+  --accent-foreground: #ece8f3;
   --destructive: oklch(0.704 0.191 22.216);
   --destructive-foreground: oklch(0.58 0.22 27);
-  --border: #2c4a48;
-  --input: #2c4a48;
-  --ring: #5f9ea0;
-  --chart-1: #87ceeb;
-  --chart-2: #4682b4;
-  --chart-3: #5f9ea0;
-  --chart-4: #2f4f4f;
-  --chart-5: #1b3232;
-  --sidebar: #1c3634;
-  --sidebar-foreground: #ededd9;
-  --sidebar-primary: #87ceeb;
-  --sidebar-primary-foreground: #14282a;
-  --sidebar-accent: #2c4a48;
-  --sidebar-accent-foreground: #ededd9;
-  --sidebar-border: #2c4a48;
-  --sidebar-ring: #5f9ea0;
-  --selection: #87ceeb;
-  --selection-foreground: #14282a;
+  --border: #3a3548;
+  --input: #3a3548;
+  --ring: #a6a0bf;
+  --chart-1: #e3deef;
+  --chart-2: #c7bddb;
+  --chart-3: #a6a0bf;
+  --chart-4: #6a647f;
+  --chart-5: #423d52;
+  --sidebar: #2d293a;
+  --sidebar-foreground: #ece8f3;
+  --sidebar-primary: #c7bddb;
+  --sidebar-primary-foreground: #221f2b;
+  --sidebar-accent: #3a3548;
+  --sidebar-accent-foreground: #ece8f3;
+  --sidebar-border: #3a3548;
+  --sidebar-ring: #a6a0bf;
+  --selection: #c7bddb;
+  --selection-foreground: #221f2b;
 }
 
 @layer base {
