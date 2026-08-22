@@ -1,6 +1,6 @@
 {
   "name": "halo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Personal React component design system, previewed in Storybook and consumed by the Orbe UI layer.",
   "private": true,
   "license": "MIT",
@@ -261,6 +261,10 @@
     "./tooltip": {
       "types": "./dist/components/ui/tooltip.d.ts",
       "default": "./dist/components/ui/tooltip.js"
+    },
+    "./typography": {
+      "types": "./dist/components/ui/typography.d.ts",
+      "default": "./dist/components/ui/typography.js"
     },
     "./styles.css": "./dist/styles.css"
   },
