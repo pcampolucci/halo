@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Self-hosted variable font (100–900 weight range in one file) — bundled
+   with the package so consumers get Raleway everywhere without an
+   external Google Fonts request. */
+@import "@fontsource-variable/raleway";
+
 /* Base layer: data-state custom variants (data-open, data-checked, ...),
    accordion keyframes, and scroll-fade/shimmer utilities that individual
    components rely on. Carried over from the upstream shadcn package. */
@@ -8,7 +13,10 @@
 
 @theme inline {
   --font-sans: var(--font-sans);
-  --font-mono: var(--font-mono);
+  /* Halo is single-typeface: point Tailwind's built-in mono fallback (used
+     for native <code>/<kbd>/<pre>) at Raleway too, so nothing on the page
+     can render in a monospace face even without an explicit font-sans class. */
+  --font-mono: var(--font-sans);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -52,9 +60,7 @@
 
 :root {
   --font-sans:
-    ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-mono:
-    ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, monospace;
+    "Raleway Variable", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --radius: 0.625rem;
 
   /* Coastal Breeze palette: ivory #FFFFF0, sky #87CEEB, steel #4682B4,

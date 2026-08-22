@@ -8,9 +8,7 @@ function Swatch({ token, label }: { token: string; label?: string }) {
         style={{ backgroundColor: `var(--${token})` }}
       />
       <div className="text-xs font-medium">{label ?? token}</div>
-      <div className="font-mono text-[10px] text-muted-foreground">
-        --{token}
-      </div>
+      <div className="text-[10px] text-muted-foreground">--{token}</div>
     </div>
   )
 }
@@ -41,7 +39,7 @@ function Palette() {
         <h2 className="text-lg font-semibold">Design tokens</h2>
         <p className="text-sm text-muted-foreground">
           CSS custom properties defined in{" "}
-          <code className="font-mono">src/styles/globals.css</code>. Switch
+          <code>src/styles/globals.css</code>. Switch
           the canvas background (Storybook toolbar) between light/dark to see
           both palettes — the same token names resolve to different values in
           each.
