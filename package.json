@@ -1,6 +1,6 @@
 {
   "name": "halo",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Personal React component design system, previewed in Storybook and consumed by the Orbe UI layer.",
   "private": true,
   "license": "MIT",
