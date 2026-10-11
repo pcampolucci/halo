@@ -63,82 +63,83 @@
     "Raleway Variable", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --radius: 0.625rem;
 
-  /* Teal palette — Tailwind's teal scale around three anchors: primary
-     #14B8A6 (teal-500), accent #2DD4BF (teal-400), background #F0FDFA
-     (teal-50). Text is dark teal (teal-900) and text on teal fills is
-     teal-950: white on #14B8A6 is too low-contrast to read. Destructive
-     stays a semantic red. */
-  --background: #f0fdfa;
-  --foreground: #134e4a;
-  --card: #ffffff;
-  --card-foreground: #134e4a;
+  /* Slate palette: #212A31, #2E3944, #124E66, #748D92, #D3D9D4.
+     The lightest (#D3D9D4) is too dark for a page background, so the page
+     uses a lighter tint of it (#EEF1EF) and #D3D9D4 goes to muted surfaces
+     and borders. Muted text is a darkened #748D92 (#4F656B) — the original
+     is too faint to read on the light background. The sidebar is dark
+     (#212A31). Destructive stays a semantic red. */
+  --background: #eef1ef;
+  --foreground: #212a31;
+  --card: #f8faf9;
+  --card-foreground: #212a31;
   --popover: #ffffff;
-  --popover-foreground: #134e4a;
-  --primary: #14b8a6;
-  --primary-foreground: #042f2e;
-  --secondary: #99f6e4;
-  --secondary-foreground: #134e4a;
-  --muted: #ccfbf1;
-  --muted-foreground: #0f766e;
-  --accent: #2dd4bf;
-  --accent-foreground: #042f2e;
+  --popover-foreground: #212a31;
+  --primary: #124e66;
+  --primary-foreground: #eef1ef;
+  --secondary: #d3d9d4;
+  --secondary-foreground: #212a31;
+  --muted: #d3d9d4;
+  --muted-foreground: #4f656b;
+  --accent: #d3d9d4;
+  --accent-foreground: #212a31;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.97 0.01 17);
-  --border: #99f6e4;
-  --input: #99f6e4;
-  --ring: #14b8a6;
-  --chart-1: #99f6e4;
-  --chart-2: #5eead4;
-  --chart-3: #2dd4bf;
-  --chart-4: #14b8a6;
-  --chart-5: #0f766e;
-  --sidebar: #ccfbf1;
-  --sidebar-foreground: #134e4a;
-  --sidebar-primary: #14b8a6;
-  --sidebar-primary-foreground: #042f2e;
-  --sidebar-accent: #99f6e4;
-  --sidebar-accent-foreground: #134e4a;
-  --sidebar-border: #99f6e4;
-  --sidebar-ring: #14b8a6;
-  --selection: #14b8a6;
-  --selection-foreground: #042f2e;
+  --border: #d3d9d4;
+  --input: #b5c1bc;
+  --ring: #124e66;
+  --chart-1: #d3d9d4;
+  --chart-2: #748d92;
+  --chart-3: #124e66;
+  --chart-4: #2e3944;
+  --chart-5: #212a31;
+  --sidebar: #212a31;
+  --sidebar-foreground: #d3d9d4;
+  --sidebar-primary: #124e66;
+  --sidebar-primary-foreground: #eef1ef;
+  --sidebar-accent: #2e3944;
+  --sidebar-accent-foreground: #eef1ef;
+  --sidebar-border: #2e3944;
+  --sidebar-ring: #748d92;
+  --selection: #124e66;
+  --selection-foreground: #eef1ef;
 }
 
 .dark {
-  --background: #042f2e;
-  --foreground: #ccfbf1;
-  --card: #0a3d3a;
-  --card-foreground: #ccfbf1;
-  --popover: #0a3d3a;
-  --popover-foreground: #ccfbf1;
-  --primary: #2dd4bf;
-  --primary-foreground: #042f2e;
-  --secondary: #115e59;
-  --secondary-foreground: #ccfbf1;
-  --muted: #0f4744;
-  --muted-foreground: #5eead4;
-  --accent: #115e59;
-  --accent-foreground: #ccfbf1;
+  --background: #212a31;
+  --foreground: #d3d9d4;
+  --card: #2e3944;
+  --card-foreground: #d3d9d4;
+  --popover: #2e3944;
+  --popover-foreground: #d3d9d4;
+  --primary: #748d92;
+  --primary-foreground: #212a31;
+  --secondary: #2e3944;
+  --secondary-foreground: #d3d9d4;
+  --muted: #2e3944;
+  --muted-foreground: #748d92;
+  --accent: #124e66;
+  --accent-foreground: #d3d9d4;
   --destructive: oklch(0.704 0.191 22.216);
   --destructive-foreground: oklch(0.58 0.22 27);
-  --border: #115e59;
-  --input: #115e59;
-  --ring: #2dd4bf;
-  --chart-1: #99f6e4;
-  --chart-2: #5eead4;
-  --chart-3: #2dd4bf;
-  --chart-4: #14b8a6;
-  --chart-5: #0f766e;
-  --sidebar: #0a3d3a;
-  --sidebar-foreground: #ccfbf1;
-  --sidebar-primary: #2dd4bf;
-  --sidebar-primary-foreground: #042f2e;
-  --sidebar-accent: #115e59;
-  --sidebar-accent-foreground: #ccfbf1;
-  --sidebar-border: #115e59;
-  --sidebar-ring: #2dd4bf;
-  --selection: #2dd4bf;
-  --selection-foreground: #042f2e;
+  --border: #2e3944;
+  --input: #3b4855;
+  --ring: #748d92;
+  --chart-1: #d3d9d4;
+  --chart-2: #748d92;
+  --chart-3: #124e66;
+  --chart-4: #2e3944;
+  --chart-5: #212a31;
+  --sidebar: #1a2127;
+  --sidebar-foreground: #d3d9d4;
+  --sidebar-primary: #748d92;
+  --sidebar-primary-foreground: #212a31;
+  --sidebar-accent: #2e3944;
+  --sidebar-accent-foreground: #d3d9d4;
+  --sidebar-border: #2e3944;
+  --sidebar-ring: #748d92;
+  --selection: #748d92;
+  --selection-foreground: #212a31;
 }
 
 @layer base {
